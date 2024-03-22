@@ -1,0 +1,172 @@
+.header {
+    max-width: 1920px;
+    height: 60px;
+    background-color: rgb(29, 47, 48);
+    display: flex;
+    flex-direction: row;
+    padding: 20px 165px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 512px;
+    height: 24px;
+    position: relative;
+    gap: 62px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    border: 1px solid transparent;
+}
+
+.nav a:hover{
+    color: rgb(186, 226, 73);
+}
+
+.nav a:active{
+    border: 1px solid rgb(131, 164, 64);
+}
+
+.leftnav button:nth-child(1){
+    margin-right: 64px;
+}
+
+.leftnav button {
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.leftnav button:active{
+    border: 1px solid rgb(131, 164, 64);
+}
+
+.section2{
+    max-width: 1920px;
+    height: 550px;
+    background-image: url("/src/img/s1backgr.png");
+    margin-top: -60px;
+    z-index: -1;
+    position: relative;
+    padding-top: 1px;
+}
+
+.section2 h1{
+    color: rgb(255, 255, 255);
+    font-family: "Cormorant";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100%;
+    z-index: 100;
+    margin-top: 174px;
+    width: 688px;
+    height: 125px;
+    margin-left: 405px;
+}
+
+.section2 p{
+    width: 635px;
+    height: 72px;
+    margin-left: 405px;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: rgb(186, 226, 73);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    border: 1px solid transparent;
+    font-weight: bold;
+    margin-left: 405px;
+}
+
+.section2 a:hover{
+    color: rgb(145, 172, 70);
+}
+
+.section2 a:active{
+    border: 1px solid rgb(131, 164, 64);
+}
+
+.sww {
+    margin-left: 405px;
+    margin-right: 405px;
+}
+
+.slider {
+    justify-content: center;
+    align-items: center;    
+    background: rgb(29, 47, 48); 
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    width: 255px !important;
+    height: 493px;
+    border: 1px dashed white;
+}
+
+.imgslider {
+    background-color: black;
+    width: 255px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed white;
+}
+
+.hcard {
+    color: rgb(255, 255, 255);
+    font-family: "Cormorant";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.slideinfo {
+    color: rgb(137, 157, 157);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.slidebutton {
+    width: 145px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgb(186, 226, 73);
+    background-color: transparent;
+    color: rgb(186, 226, 73);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-left: 16px;
+}
