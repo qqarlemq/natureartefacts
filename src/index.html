@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/normalize.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="/src/css/style.css">
+    <script src="/src/js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -35,9 +35,7 @@
             <a href="">Исследовать <span><img src="/src/vectors/arrow.png" alt=""></span></a>
         </section>
         <section class="slider">
-            <div class="sww">
-
-                <div class="swiper mySwiper">
+                <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="imgslider">
@@ -104,14 +102,12 @@
                                 <button class="slidebutton">Подробнее</button>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button">
+                        <button class="prev" id="left"><img  src="/src/vectors/Arrowslider_l.png" alt=""></button>
+                        <button class="next" id="right"> <img  src="/src/vectors/Arrowslider_r.png" alt=""></button>
+                    </div>
                 </div>
-            </div>
         </section>
     </main>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/src/js/main.js"></script>
 </body>
 </html>
