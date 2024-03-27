@@ -1,0 +1,82 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (992px <= width <= 1199px) {
+    .header {
+        padding-left: 50px;
+    }
+
+    .rightnav {
+        margin-right: 100px;
+    }
+
+    .nav {
+        gap: 40px;
+    }
+
+    .section2 h1{
+        margin-left: 50px;
+    }
+
+    .section2 p {
+        margin-left: 50px;
+    }
+
+    .section2 a{
+        margin-left: 50px;
+    } 
+
+    .swiper .swiper-wrapper {
+        margin-left: 50px;
+        width: 840px;
+    }
+
+}
+@media (768px <= width <= 991px) { 
+    .header {
+        padding-left: 30px;
+    }
+
+    .rightnav {
+        margin-right: 100px;
+    }
+
+    .rightnav button:nth-child(1){
+        margin-right: 32px;
+    }
+
+    .nav {
+        gap:25px;
+    }
+
+    .section2 h1{
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .section2 p {
+        margin-left: 50px;
+        font-size: 16px;
+        margin-top: -4px;
+        width: 60%;
+        margin-bottom: 12px;
+    }
+
+    .section2 a{
+        margin-left: 50px;
+    }
+
+    .swiper .swiper-wrapper {
+        width: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+}

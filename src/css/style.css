@@ -1,5 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
 .header {
-    max-width: 1920px;
+
+    width: 100%;
     height: 60px;
     background-color: rgb(29, 47, 48);
     display: flex;
@@ -13,7 +18,7 @@
 .nav {
     display: flex;
     flex-direction: row;
-    max-width: 512px;
+    max-width: 100%;
     height: 24px;
     position: relative;
     gap: 62px;
@@ -37,29 +42,36 @@
     border: 1px solid rgb(131, 164, 64);
 }
 
-.leftnav button:nth-child(1){
+.rightnav{
+    margin-right: 330px;
+}
+
+.rightnav button:nth-child(1){
     margin-right: 64px;
 }
 
-.leftnav button {
+.rightnav button {
     border: 1px solid transparent;
     background-color: transparent;
     cursor: pointer;
 }
 
-.leftnav button:active{
+.rightnav button:active{
     border: 1px solid rgb(131, 164, 64);
 }
 
 .section2{
-    max-width: 1920px;
+    width: 100%;
     height: 550px;
-    background-image: url("/src/img/s1backgr.png");
     margin-top: -60px;
-    z-index: -1;
-    position: relative;
     padding-top: 1px;
 }
+
+.background {
+    position:absolute;
+    z-index: -1;
+}
+
 
 .section2 h1{
     color: rgb(255, 255, 255);
@@ -97,6 +109,7 @@
     border: 1px solid transparent;
     font-weight: bold;
     margin-left: 405px;
+    user-select: none;
 }
 .section2 a:hover{
     color: blue;
@@ -115,7 +128,6 @@
     width: 1120px;
     overflow-x: auto;
     scroll-snap-type:x mandatory;
-    margin-left: 405px;
     gap: 30px;
     scroll-behavior: smooth;
     scrollbar-width: 0;
@@ -139,6 +151,8 @@
     align-items: center;
     background: rgb(29, 47, 48); 
     padding-top: 60px; 
+    width: 100%;
+    display: flex;
 }
 
 .swiper-wrapper.dragging .swiper-slide {
@@ -187,7 +201,6 @@
 .slidebutton {
     width: 145px;
     height: 45px;
-    box-sizing: border-box;
     border: 1px solid rgb(186, 226, 73);
     background-color: transparent;
     color: rgb(186, 226, 73);
@@ -197,17 +210,35 @@
     line-height: 150%;
     margin-top: 16px;
     margin-left: 16px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.slidebutton:hover {
+    background: rgb(186, 226, 73);
+    color: black;
+    font-size: 18px;
+}
+
+.slidebutton:active {
+    border: 4px double black;
+    transition: -2s;
 }
 
 .swiper-button {
     margin-top: 30px;
-    margin-left: 920px;
     gap: 30px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 
 .swiper-button button{
     border: 1px solid transparent;
     background-color: transparent;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .swiper-button button:hover {
