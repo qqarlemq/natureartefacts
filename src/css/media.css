@@ -32,6 +32,14 @@
         width: 840px;
     }
 
+    .swiper2{
+        margin-left: 50px;
+    }
+    
+    .body-fb{
+        padding-left: 50px;
+    }
+
 }
 @media (768px <= width <= 991px) { 
     .header {
@@ -61,7 +69,7 @@
         font-size: 16px;
         margin-top: -4px;
         width: 60%;
-        margin-bottom: 12px;
+        margin-bottom: 30px;
     }
 
     .section2 a{
@@ -70,6 +78,25 @@
 
     .swiper .swiper-wrapper {
         width: 550px;
+    }
+
+    .swiper2 {
+        margin-left: 50px;
+    }
+    
+    .body-fb{
+        padding-left: 50px;
+    }
+
+    .feedback h4{
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .feedback p{
+        font-size: 16px;
+        margin-top: -4px;
+        width: 90%;
     }
 }
 
