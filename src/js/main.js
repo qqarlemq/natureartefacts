@@ -54,3 +54,9 @@ carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("burger").addEventListener("click", function() {
+    document.querySelector("header").classList.toggle("open")
+  })
+})

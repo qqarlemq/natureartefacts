@@ -102,6 +102,98 @@
 
 @media (max-width: 768px) {
 
+    .header.open .nav{
+        transform: translateX(100%);
+    }
+
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: auto;
+    }
+
+    .header__burger-btn {
+        display: block;
+        z-index: 2;
+        
+    }
+    
+    .nav {
+        flex-direction: column;
+        height: auto;
+        width: 310px;
+        position: absolute;
+        left: -350px;
+        top: 0;
+        background-color: rgb(137, 157, 157);
+        padding: 100px 20px 50px 20px;
+        transition: transform .5s;
+    }
+
+    .nav a{
+        color: black;
+        font-weight: bold;
+        font-size: large;
+        display: block;
+    }
+
+    .rightnav{
+        display: none;
+    }
+    .section2 h1{
+        margin-left: 50px;
+        font-weight: 500;
+        font-size: 40px;
+        width: auto;
+    }
+
+    .section2 p {
+        margin-left: 50px;
+        font-size: 16px;
+        margin-top: -4px;
+        width: 60%;
+        margin-bottom: 80px;
+    }
+
+    .section2 a{
+        margin-left: 50px;
+    }
+
+    .righttext {
+        margin-left: 5px;
+    }
+
+    .righttext h3{
+        font-size: 21px;
+    }
+
+    .righttext p{
+        font-size: 17px;
+    }
+
+    .swiper .swiper-wrapper {
+        width: 280px;
+    }
+
+    .swiper2 {
+        margin-left: 0px;
+    }
+    
+    .body-fb{
+        padding-left: 50px;
+        
+    }
+
+    .feedback h4{
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .feedback p{
+        font-size: 14px;
+        width: 90%;
+        font-weight:lighter;
+    }
 }
 
 @media (max-width: 480px) {
